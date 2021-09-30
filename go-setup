@@ -1,0 +1,5 @@
+#! /bin/bash
+#Repending on how you've created main.go your indentation can be messed up and you need to run gofmt to fix it
+gofmt -s -w main.go
+#Retrieves the external package for datastore
+go get cloud.google.com/go/datastore
